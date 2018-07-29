@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #808080;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 35px;
+    
+}
+
+nav {
+    background-color: #c0c0c0;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    padding: 35px;
+    margin-bottom: 5px;
+}
+
+section {
+    float: left;
+    width: 495px;
+    background-color: hotpink;
+    padding: 10px;
+}
+
+article {
+    background-color: lightcoral;
+    }
+
+#header2 {
+    background-color: fuchsia;
+    color: green;
+    margin: auto;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    background: blue;
+    text-align: center;
+    margin-left: 5px;
+}
