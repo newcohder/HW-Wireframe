@@ -1,12 +1,43 @@
-html {
+* {
     box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
+    text-align: center;
+  }
+  
+body {
+    background-color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    margin: auto;
+    width: 960px;
 }
 
-body {
-    background-color: #808080;
+h1 {
+    color: #777;
+}
+
+p {
+    color: #777;
+}
+
+.header {
+    background-color: #ebebeb;
+    padding: 10px;  
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #ebebeb;
+    padding: 30px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .wrapper {
@@ -14,46 +45,52 @@ body {
     margin: 0 auto;
 }
 
-header {
-    background-color: #fff;
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    padding: 35px;
-    
+.left {
+  float: left;
+  background-color: #ebebeb; 
+  margin-right: 20px;
 }
 
-nav {
-    background-color: #c0c0c0;
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    margin-top: 5px;
-    padding: 35px;
-    margin-bottom: 5px;
+.article {
+  width: 495px; 
+  background-color: #777; 
+  color: #fff;
+  padding: 20px;  
 }
 
-section {
-    float: left;
-    width: 495px;
-    background-color: hotpink;
+.info {
+    margin: 10px auto;
     padding: 10px;
+    background-color: #ebebeb;
+    color: #777;
 }
 
-article {
-    background-color: lightcoral;
-    }
-
-#header2 {
-    background-color: fuchsia;
-    color: green;
-    margin: auto;
+#text {
+    color: #777;
 }
 
-aside {
+#section {
+    padding: 25px; 
+    min-height: 300px;
+    width: 495;
+}
+
+#aside {
+    padding: 25px; 
+    width: 395px;
+    min-height: 610px;
+    background-color: #ebebeb;
     float: left;
-    width: 200px;
-    background: blue;
-    text-align: center;
-    margin-left: 5px;
+}
+
+#brclear {
+    clear:both;
+    height:0;
+    margin:0;
+    font-size: 1px;
+    line-height: 0;
+} 
+
+.clearboth {
+    clear: both;
 }
